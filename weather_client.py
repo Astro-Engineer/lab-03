@@ -7,7 +7,7 @@ from typing import Dict
 URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # TODO: get an API key from openweathermap.org and fill it in here!
-API_KEY = ""
+API_KEY = "602580dc4bb334b6288b26480c637619"
 
 def get_weather(city) -> Dict:
     res = requests.get(URL, params={"q": city, "appid": API_KEY})
